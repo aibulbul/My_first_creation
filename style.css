@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header start*/
+
+head{}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+    overflow: hidden;    
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin-top: 65px;
+     
+
+
+}
+.logoh1{
+   float: left;
+   color: black;
+}
+.menu{
+    width: 65%;
+    float: right;
+
+}
+.menu ul{
+     float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 75px 50px;
+
+} 
+
+.menu ul li:last-child a{
+    padding-right: 0;
+
+}
+.menu ul li a:hover{
+    color: black;
+} 
+/*Header end*/
+/*Banner start*/
+
+
+.wrapper img{
+    width: 100%;
+    max-height: 620px;
+    
+} 
+
+/*Banner end*/
+/*services start*/
+
+.ourh1{
+    color: rgba(0, 0, 0, 0.733);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service1{
+    float: right;
+    width: 20%;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+.servicepart1{
+    margin-bottom: 10px;
+    
+}
+.servicepart1 h2{
+    margin-bottom: 10px;
+    padding: 10px, auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.servicepart1 img{
+    width: 100%;
+}
+.servicepart2{
+
+   margin-top: 10px;
+
+
+}
+.servicepart2 p{
+    text-align: left;
+    line-height: 20px;
+    padding: 8px;
+    border: .2px solid black;
+    border-radius: 5%;
+    
+}
+.ourh1:hover{
+
+    color: black;
+}
+
+.servicepart2:hover{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgb(7, 7, 7);
+}
+
+
+
+
+/*services end*/
+/*Reviews start*/
+
+.wrapper2{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+    
+}
+.wrapper2 h1{
+    color: rgba(0, 0, 0, 0.733);;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.review1{
+    width: 25%;
+    float: right;
+    padding-right: 85px;
+}
+.reviewpart1{
+    width: 100%;
+}
+.reviewpart1 img{
+    width: 100%;
+    border: .1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 7px;
+
+}
+.reviewpart2{
+}
+.reviewpart2 h2{
+    border: .5px solid rgba(0, 0, 0, 0.178);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 5px;
+    margin-right: 80px;
+    text-transform: capitalize;
+}
+.reviewpart2 p{
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.849)
+    border: 1px solid black;
+    padding: 15px 5px;
+}
+.cphoto{
+    height: 500px;
+}
+.wrapper2 h1:hover{
+
+    color: black;
+}
+/*Reviews end*/
+/*Footer start*/
+ footer{
+   width: 100%;    
+   height: 220px; 
+   overflow: hidden;
+   margin-top: 20px;
+   background-color: rgba(0, 0, 0, 0.103);
+    
+}
+.footerpart1{
+    width: 30%;
+    float: left;
+    margin-left: 17%;
+}
+.footerpart1 h2{
+    padding-left: 7.5px;
+    text-align: left;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.footerpart1 p{
+    padding: 8.9px;
+    text-align: left;
+
+}
+.footerpart1 h4{
+
+    margin: 10px;
+    text-align: left;
+}
+.form{
+    margin-left: 10PX;
+}
+.button{
+    margin-left: 130px;
+    padding: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+
+.footerpart1 label{
+    text-transform: uppercase;
+
+
+}
+.footerpart1 input{
+    margin: 10px 0;
+     width: 300px;   
+     height: 32px; 
+}
+
+
+/*Footer end*/
